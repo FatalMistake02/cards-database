@@ -72,12 +72,14 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+				variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	stage: "Basic",
 
@@ -85,10 +87,6 @@ const card: Card = {
 		en: "At a distance, it launches its sharp feathers while flying about. If the enemy gets too close, Rowlet switches tactics and delivers vicious kicks."
 	},
 
-	thirdParty: {
-		cardmarket: 539053,
-		tcgplayer: 232364
-	}
 }
 
 export default card

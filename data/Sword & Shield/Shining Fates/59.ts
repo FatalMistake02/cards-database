@@ -29,17 +29,19 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+				variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"]
+		}
+	],
 
-	thirdParty: {
-		cardmarket: 539318,
-		tcgplayer: 232536
-	}
 }
 
 export default card
